@@ -3,7 +3,11 @@ import { Routes, Route, Navigate  } from "react-router-dom";
 
 import {
   Home,
-  Search
+  Search,
+  Login,
+  Stays,
+  CarRental,
+  SignUp
 } from "./components/pages";
 import { Header, Sidebar, Footer } from "./components/layouts";
 import { Spinner } from "./components/elements";
@@ -27,6 +31,10 @@ export default () => {
           <Route path="/" exact element={<Home/>} />
           <Route path="/search" exact element={<Search/>} />
           <Route path="*" element={<Navigate to="/" />} />
+          <Route path="/login" exact element={<Login/>} />
+          <Route path="/stays" exact element={<Stays/>} />
+          <Route path="/car-rental" exact element={<CarRental/>} />
+          <Route path="/sign-up" exact element={<SignUp/>} />
         </Routes>
         <Footer />
       </Fragment>
