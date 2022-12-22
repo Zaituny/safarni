@@ -4,10 +4,10 @@ import {
   ParallaxHeader,
   SortBy,
   SearchBy,
-  FlightCard
+  HotelCard
 } from "../../widgets";
 import { Layout } from "../../layouts";
-import styles from "./Search.module.scss";
+import styles from "./HotelSearch.module.scss";
 import {Options, InputForm, Filters} from "../../widgets"
 import { Link } from "../../elements";
 
@@ -39,7 +39,7 @@ export default () => {
                 </div>
                 <div className={styles.mainsection} style={{display:'flex', width:'100%', marginTop:'30px', justifyContent:'space-between'}}>
                   <Filters/>
-                  <FlightCard/>
+                  <HotelCard/>
                 </div>
               </div>
               

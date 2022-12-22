@@ -4,11 +4,11 @@ import {
   ParallaxHeader,
   SortBy,
   SearchBy,
-  FlightCard
+  CarCard
 } from "../../widgets";
 import { Layout } from "../../layouts";
-import styles from "./Search.module.scss";
-import {Options, InputForm, Filters} from "../../widgets"
+import styles from "./CarSearch.module.scss";
+import {Options, InputForm2, Filters} from "../../widgets"
 import { Link } from "../../elements";
 
 import { useCustomState } from "../../../state/state";
@@ -31,7 +31,7 @@ export default () => {
         >
           <div className={styles.slide}>
             <div className={styles.intro}>
-              <InputForm/>
+              <InputForm2/>
               <div style={{display:'flex', width:'100%', marginTop:'30px', flexDirection:'column'}}>
                 <div className={styles.inputlist} style={{display:'flex', width:'100%', marginTop:'30px', justifyContent:'space-between'}}>
                   <SearchBy/>
@@ -39,7 +39,7 @@ export default () => {
                 </div>
                 <div className={styles.mainsection} style={{display:'flex', width:'100%', marginTop:'30px', justifyContent:'space-between'}}>
                   <Filters/>
-                  <FlightCard/>
+                  <CarCard/>
                 </div>
               </div>
               

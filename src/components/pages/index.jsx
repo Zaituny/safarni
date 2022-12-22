@@ -4,6 +4,9 @@ import Login from "./Login/Login";
 import Stays from "./Stays/Stays";
 import CarRental from "./Car-Rental/CarRental";
 import SignUp from "./SignUp/SignUp";
+import Attractions from "./Attractions/Attractions";
+import CarSearch from "./CarSearch/CarSearch";
+import HotelSearch from "./HotelSearch/HotelSearch";
 
 export {
   Home,
@@ -11,5 +14,8 @@ export {
   Login,
   Stays,
   CarRental,
-  SignUp
+  SignUp,
+  Attractions,
+  CarSearch,
+  HotelSearch
 };
