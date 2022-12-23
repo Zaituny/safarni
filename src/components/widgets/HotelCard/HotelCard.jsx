@@ -4,6 +4,7 @@ import styles from "./HotelCard.module.scss";
 import Layout from "../../layouts/Layout/Layout";
 import { Button } from "../../elements";
 import { Options } from "../../elements";
+import hotels from "../HotelCard";
 
 export default ({ data = [] }) => {
 
@@ -15,7 +16,7 @@ export default ({ data = [] }) => {
     setSelected(event.target.value);
   };
 
-  function FlighrCard(props) {
+  function HotelCard(props) {
     return (
       <div className={styles.card} style={{padding:'0px', minHeight:'256px', flexDirection:'row', border:'none'}}>
         <div style={{width:'100%', display:'flex', justifyContent:'space-between'}}>
@@ -23,9 +24,9 @@ export default ({ data = [] }) => {
             <img src={props.img} alt="" />
           </div>
           <div className={styles.hotel_info} style={{flexBasis: '45%', padding:'15px', justifyContent:'space-between'}}>
-            <h1>Hyatt Place London  <br />
+            <h1>{props.name}<br />
             {
-              [...Array(5)].map((e, i) => <i className="fa-solid fa-star" key={i}></i>)
+              props.star
             }
             </h1>
             <h3 style={{fontSize:'12px'}}>{props.description}</h3>
@@ -40,17 +41,26 @@ export default ({ data = [] }) => {
     );
   }
 
+  function CreateCard(hotel) {
+    return (
+      <HotelCard
+        key={hotel.id}
+        name={hotel.name}
+        star={hotel.star}
+        img={hotel.img}
+        description={hotel.description}
+        rating={hotel.rating}
+        reviews={hotel.reviews}
+        price={hotel.price}
+        payEvery={hotel.payEvery}
+      />
+    );
+  }
+
 
   return (
     <div className={styles.cards}>
-      <FlighrCard 
-        img="https://i.ibb.co/9cL1vwS/pexels-donald-tong-189296.jpg"
-        description="Consider a stay at Hyatt Place London Heathrow Airport and take advantage of dry cleaning/laundry services, a bar, and a gym. The onsite restaurant, Gallery Café, features British cuisine. Free in-room WiFi, with speed of 500+ Mbps."
-        rating="9.0/10"
-        reviews="Wonderful (1,200 reviews)"
-        price="$121"
-        payEvery="per night"
-      />
+      {hotels.map(CreateCard)}
       <div className={styles.btnlist}>
         <button>
           See More

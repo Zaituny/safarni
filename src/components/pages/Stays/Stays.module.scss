@@ -45,31 +45,32 @@
   
   .imgsection{
     margin-top: 48px;
-    transform: rotateY(-180deg);
+    // transform: rotateY(-360deg);
     border-radius: 40px;
     padding: 32px;
     display: flex;
     flex-direction: column;
     align-items: end;
+    justify-content: flex-start;
+    align-items: flex-start;
     
-    
+  }
   
-    & h1{
-      transform: rotateY(180deg);
-      flex-grow: 0;
-      font-family: Merriweather;
-      font-size: 40px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: left;
-      color: #0d261e;
-    }
+  .h1{
+    transform: rotateY(-180deg);
+    flex-grow: 0;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0d261e;
   }
   .imgsection_btn{
-    transform: rotateY(180deg);
+    transform: rotateY(-360deg);
     flex-grow: 0;
     display: flex;
     flex-direction: row;
@@ -92,18 +93,18 @@
     transition: all 0.5s ease-in-out;
   }
 
-// .Line {
-//   & h2 {
+.Line {
+  & h2 {
 
-//       width: 100%; 
-//       text-align: center; 
-//       border-bottom: 1px solid #000; 
-//       line-height: 0.1em;
-//       margin: 10px 0 20px; 
-//    } 
+      width: 100%; 
+      text-align: center; 
+      border-bottom: 1px solid #000; 
+      line-height: 0.1em;
+      margin: 10px 0 20px; 
+   } 
    
   
-// } 
+} 
  
  
   
