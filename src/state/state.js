@@ -19,7 +19,6 @@ const actions = {
   fetch: async () => {
     try {
       const response = await axios.get(
-        // Change with your database path
         "/api/data"
       );
       state = { ...state, data: response.data };

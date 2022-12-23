@@ -43,9 +43,10 @@ export default () => {
                 <p>Statement and Safarni Rewards Terms and Conditions</p>
             </div>
             <div className={styles.btnlist}>
-                <Link hoverStyle={{background:'#1a4c3c', color:'#fff', width:'60%'}} style={{width:'60%'}} className={styles.imgsection_btn} url="/about">
+                {/* <Link hoverStyle={{background:'#1a4c3c', color:'#fff', width:'60%'}} style={{width:'60%'}} className={styles.imgsection_btn} url="/about">
                   Sign Up
-                </Link>
+                </Link> */}
+                <input type ="submit" className={styles.imgsection_btn} style={{width:'60%'}}/>
             </div>
           </div>
         </div>
