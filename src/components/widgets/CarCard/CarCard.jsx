@@ -4,6 +4,7 @@ import styles from "./CarCard.module.scss";
 import Layout from "../../layouts/Layout/Layout";
 import { Button } from "../../elements";
 import { Options } from "../../elements";
+import cars from "../CarCards"
 
 export default ({ data = [] }) => {
 
@@ -45,24 +46,25 @@ export default ({ data = [] }) => {
     );
   }
 
-  function CreateCard() {
+  function CreateCard(car) {
     return (
-      <CarCard />
+      <CarCard 
+        key={car.id}
+        name={car.name}
+        img={car.img}
+        carType={car.carType}
+        capacity={car.capacity}
+        type={car.type}
+        price={car.price}
+        payType={car.payType}
+      />
     );
   }
 
 
   return (
     <div className={styles.cards}>
-      <CarCard 
-        name="Hyundai Tucson"
-        img="https://i.ibb.co/xLX4jVf/04f5c0900b780dc7c9a4e6c4ea1d4c5e.png"
-        carType="SUV"
-        capacity="4 Seater"
-        type="Automatic"
-        price="$1200"
-        payType="per week"
-      />
+      {cars.map(CreateCard)}
       <div className={styles.btnlist}>
         <button>
           See More

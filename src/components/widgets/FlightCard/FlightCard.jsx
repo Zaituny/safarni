@@ -4,6 +4,7 @@ import styles from "./FlightCard.module.scss";
 import Layout from "../../layouts/Layout/Layout";
 import { Button } from "../../elements";
 import { Options } from "../../elements";
+import flights from "../FlightCards";
 
 export default ({ data = [] }) => {
 
@@ -40,19 +41,26 @@ export default ({ data = [] }) => {
     );
   }
 
+  function CreateCard(flight) {
+    return (
+      <FlightCard 
+        key={flight.id}
+        time={flight.time}
+        destination={flight.destination}
+        airline={flight.airline}
+        duration={flight.duration}
+        layoverTime={flight.layoverTime}
+        price={flight.price}
+        tripPerTraveler={flight.tripPerTraveler}
+        included={flight.included}
+      />
+    );
+  }
+
 
   return (
     <div className={styles.cards}>
-      <FlightCard 
-        time="4:35pm - 8:20am"
-        destination="Cairo (CAI) - London (LHR)"
-        airline="Lufthansa"
-        duration="17h 45m (1 stop)"
-        layoverTime="11h 30m in Vienna (VIE)"
-        price="$743"
-        tripPerTraveler="Round trip per traveler"
-        included="Carry-on included"
-      />
+      {flights.map(CreateCard)}
       <div className={styles.btnlist}>
         <button>
           See More
