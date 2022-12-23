@@ -7,6 +7,8 @@ import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from 'react-router-dom';
 
+const key = "b1mZrU0Mv3doCle2fe4mKp8llNF8G54gFgrsAFjsftkkKV1GwEaWQ43JE7yBPNm6";
+
 export default () => {
   const [UserName, setUsername] = useState("")
   const [PassWord, setPassword] = useState("")
@@ -19,31 +21,28 @@ export default () => {
 }
 
 const onSubmitHandler = (event) => {
-  var notFound = false
+  var notFound = false;
   event.preventDefault();
-  async function temp (e){
+  async function temp (){
     try{
       const response = await axios.get("/loginAttempt");
       response.data.forEach(element => {
         if(element.Username === UserName && element.Password === PassWord){
             navigate("/");
-            return;
+            notFound = false;
           }
           else if(element.Username === UserName && element.Password !== PassWord){
-            setUsername("");
-            setPassword("");
             navigate("/stays");
             navigate("Login");
-            return;
+            notFound = false;
           }
         });
-        notFound = true;
       }catch(err){
         console.log(err);
       }
-      return notFound;
+      notFound = true;
   }
-  notFound = temp(notFound);
+  temp();
   if(notFound){
     navigate("/stays");
     navigate("Login");
