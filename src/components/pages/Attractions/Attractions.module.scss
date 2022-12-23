@@ -62,13 +62,6 @@
     background-color: transparent;
     padding: 10px 20px;
   }
-  .car{
-    width: 320px;
-    height: 190px;
-    border-color: transparent;
-    border-radius: 20px;
-    margin: 40px;
-  }
 
   .cartext1{
     bottom: 120px;
@@ -177,6 +170,23 @@
     position: absolute;
     align-items: flex-end;
     border-color: transparent;
+  }
+  .imgsection2{
+    display: flex;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+    padding: 40px 20px;
   }
   
  
