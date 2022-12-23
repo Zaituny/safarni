@@ -7,11 +7,11 @@ import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from 'react-router-dom';
 
-const key = "b1mZrU0Mv3doCle2fe4mKp8llNF8G54gFgrsAFjsftkkKV1GwEaWQ43JE7yBPNm6";
+// const key = "b1mZrU0Mv3doCle2fe4mKp8llNF8G54gFgrsAFjsftkkKV1GwEaWQ43JE7yBPNm6";
 
 export default () => {
-  const [UserName, setUsername] = useState("")
-  const [PassWord, setPassword] = useState("")
+  const [UserName, setUsername] = useState("");
+  const [PassWord, setPassword] = useState("");
   const navigate = useNavigate();
   const UsernameChangeHandler = (event) => {
     setUsername(event.target.value)
@@ -25,29 +25,38 @@ const onSubmitHandler = (event) => {
   event.preventDefault();
   async function temp (){
     try{
-      const response = await axios.get("/loginAttempt");
-      response.data.forEach(element => {
-        if(element.Username === UserName && element.Password === PassWord){
-            navigate("/");
-            notFound = false;
-          }
-          else if(element.Username === UserName && element.Password !== PassWord){
-            navigate("/stays");
-            navigate("Login");
-            notFound = false;
-          }
-        });
+      const response = await fetch(`http://localhost:5000/users/${UserName}`);
+      if(!response.ok){
+        alert("error!");
+        notFound = true;
+        return;
+      }
+      const user = await response.json();
+      console.log(response.data);
+      console.log(user);
+      if(!user){
+        alert("incorrect email or email doesn't exist please sign up if you don't have an account");
+        notFound = true;
+        return;
+      }
+      if(PassWord !== user.Password){
+        notFound = true;
+        return;
+      }
       }catch(err){
         console.log(err);
       }
-      notFound = true;
+      if(notFound){
+        navigate("/stays");
+        navigate("Login");
+      }
+      else{
+        navigate("/");
+      }
+      
   }
   temp();
-  if(notFound){
-    navigate("/stays");
-    navigate("Login");
-  }
-  }
+}
  
   return (
     <Fragment>

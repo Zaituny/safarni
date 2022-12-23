@@ -45,6 +45,3 @@ Mock.onGet("/api/data").reply((config) => {
   return [200, response];
 });
 
-Mock.onGet("/loginAttempt").reply((config) =>{
-  return [200, database.users];
-})
