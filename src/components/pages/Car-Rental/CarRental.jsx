@@ -29,7 +29,7 @@ export default () => {
           <div className={styles.slide}>
             <div className={styles.intro}>
               <h1>Travel Made Easy</h1>
-              <Options/>
+              <Options s = "car"/>
               <InputForm2/>
               <div className={styles.font}>
                 <h2>Top Rented</h2>

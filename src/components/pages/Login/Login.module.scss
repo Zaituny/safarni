@@ -141,5 +141,10 @@
     letter-spacing: normal;
     text-align: center;
     color: #1a4c3c;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.25s ease-in-out;
+  }
+  .imgsection_btn:hover{
+    background:#1a4c3c;
+     color: #fff;
+      width: 60%
   }

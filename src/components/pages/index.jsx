@@ -7,6 +7,8 @@ import SignUp from "./SignUp/SignUp";
 import Attractions from "./Attractions/Attractions";
 import CarSearch from "./CarSearch/CarSearch";
 import HotelSearch from "./HotelSearch/HotelSearch";
+import Cruises from "./Cruises/Cruises";
+import Packages from "./Packages/Packages";
 
 export {
   Home,
@@ -17,5 +19,7 @@ export {
   SignUp,
   Attractions,
   CarSearch,
-  HotelSearch
+  HotelSearch,
+  Cruises,
+  Packages
 };

@@ -1,6 +1,5 @@
 import React, { useEffect, Fragment } from "react";
-import { Routes, Route, Navigate  } from "react-router-dom";
-
+import { Routes, Route, Navigate} from "react-router-dom";
 import {
   Home,
   Search,
@@ -10,7 +9,9 @@ import {
   SignUp,
   Attractions,
   CarSearch,
-  HotelSearch
+  HotelSearch,
+  Cruises,
+  Packages
 } from "./components/pages";
 import { Header, Sidebar, Footer } from "./components/layouts";
 import { Spinner } from "./components/elements";
@@ -33,7 +34,7 @@ export default () => {
         <Routes>  
           <Route path="/" exact element={<Home/>} />
           <Route path="/search" exact element={<Search/>} />
-          <Route path="*" element={<Navigate to="/" />} />
+          <Route path="*" element={<Navigate to="/Login" />} />
           <Route path="/login" exact element={<Login/>} />
           <Route path="/stays" exact element={<Stays/>} />
           <Route path="/car-rental" exact element={<CarRental/>} />
@@ -41,6 +42,8 @@ export default () => {
           <Route path="/attractions" exact element={<Attractions/>} />
           <Route path="/car-search" exact element={<CarSearch/>} />
           <Route path="/hotel-search" exact element={<HotelSearch/>} />
+          <Route path="/cruises" exact element={<Cruises/>} />
+          <Route path="/packages" exact element={<Packages/>} />
         </Routes>
         <Footer />
       </Fragment>
