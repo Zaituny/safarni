@@ -1,10 +1,3 @@
-You can use the following login data or create your own account 
-
-email: Eng.Sally@email.com
-First Name: Eng.
-Last Name: Sally
-Password: Eng.Sally
-
 
 # Getting Started with Create React App
 
