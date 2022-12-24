@@ -104,6 +104,7 @@ export default ({ data = [] }) => {
               }),
             
           });
+          navigate("/");
           navigate("/search");
         }catch(err){
           console.log(err);

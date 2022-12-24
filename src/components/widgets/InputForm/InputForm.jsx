@@ -102,6 +102,7 @@ export default ({ data = [] }) => {
               }),
             
           });
+          navigate("/");
           navigate("/hotel-search");
         }catch(err){
           console.log(err);

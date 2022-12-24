@@ -4,18 +4,15 @@ import styles from "./CarCard.module.scss";
 import Layout from "../../layouts/Layout/Layout";
 import { Button } from "../../elements";
 import { Options } from "../../elements";
-import cars from "../CarCards"
+import cars from "../CarCards";
+import { useNavigate } from 'react-router-dom';
 
 export default ({ data = [] }) => {
-
-
-  const s = 'stays';
-  const [selected, setSelected] = useState( s? s : 'stays');
-
-  const handleChange = (event) => {
-    setSelected(event.target.value);
-  };
-
+  const navigate = useNavigate();
+  const onSubmitHandler = (event) => {
+    navigate("/");
+    navigate("/car-reserve");
+  }
   function CarCard(props) {
     return (
     <div className={styles.card}>
@@ -36,9 +33,9 @@ export default ({ data = [] }) => {
             <h3>{props.payType}</h3>
           </div>
           <div className={styles.btnlist}>
-            <button>
+            <form onSubmit = {onSubmitHandler} action = "/" method = "post"><button>
               Reserve
-            </button>
+            </button></form>
           </div>
         </div>
       </div>

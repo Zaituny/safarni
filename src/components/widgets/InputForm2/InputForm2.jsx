@@ -3,20 +3,18 @@ import Slider from "react-slick";
 import styles from "./InputForm2.module.scss";
 import Layout from "../../layouts/Layout/Layout";
 import { Link } from "../../elements";
+import { useNavigate } from 'react-router-dom';
+
 
 export default ({ data = [] }) => {
-
-
-  const s = 'stays';
-  const [selected, setSelected] = useState( s? s : 'stays');
-
-  const handleChange = (event) => {
-    setSelected(event.target.value);
-  };
-
-
+  const navigate = useNavigate();
+  const onSubmitHandler = (event) => {
+    navigate("/");
+    navigate("/car-search");
+  }
   return (
     <div className={styles.searchbox}>
+      <form onSubmit = {onSubmitHandler} action = "/" method = "post">
       <div>
         <div className={styles.inputlist}>
         <input type="text" placeholder="Pick-up" style={{flexGrow:"6"}}/>
@@ -30,10 +28,12 @@ export default ({ data = [] }) => {
         </div>
       </div>
       <div className={styles.btnlist}>
-        <Link url='/search' hoverStyle={{background:'transparent', color:'#26735b', border:'1px solid #26735b'}}>
+        {/* <Link url='/search' hoverStyle={{background:'transparent', color:'#26735b', border:'1px solid #26735b'}}>
           Search
-        </Link>
+        </Link> */}
+        <input type ="submit" className={styles.imgsection_btn} style={{width:'20%'}}/>
       </div>
+      </form>
     </div>
   );
 };
