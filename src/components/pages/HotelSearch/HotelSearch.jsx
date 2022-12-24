@@ -8,7 +8,7 @@ import {
 } from "../../widgets";
 import { Layout } from "../../layouts";
 import styles from "./HotelSearch.module.scss";
-import {Options, InputForm, Filters} from "../../widgets"
+import {Options, InputForm, FilterHotel} from "../../widgets"
 import { Link } from "../../elements";
 
 import { useCustomState } from "../../../state/state";
@@ -38,7 +38,7 @@ export default () => {
                   <SortBy/>
                 </div>
                 <div className={styles.mainsection} style={{display:'flex', width:'100%', marginTop:'30px', justifyContent:'space-between'}}>
-                  <Filters/>
+                  <FilterHotel/>
                   <HotelCard/>
                 </div>
               </div>

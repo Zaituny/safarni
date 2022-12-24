@@ -8,7 +8,7 @@ import {
 } from "../../widgets";
 import { Layout } from "../../layouts";
 import styles from "./CarSearch.module.scss";
-import {Options, InputForm2, Filters} from "../../widgets"
+import {Options, InputForm2, FilterCar} from "../../widgets"
 import { Link } from "../../elements";
 
 import { useCustomState } from "../../../state/state";
@@ -38,7 +38,7 @@ export default () => {
                   <SortBy/>
                 </div>
                 <div className={styles.mainsection} style={{display:'flex', width:'100%', marginTop:'30px', justifyContent:'space-between'}}>
-                  <Filters/>
+                  <FilterCar/>
                   <CarCard/>
                 </div>
               </div>

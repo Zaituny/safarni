@@ -13,6 +13,9 @@ import InputForms4 from "./InputForms4/InputForms4";
 import SearchByAirline from "./SearchByAirline/SearchByAirline";
 import SearchByCarBrand from "./SearchByCarBrand/SearchByCarBrand";
 import SearchByHotel from "./SearchByHotel/SearchByHotel"
+import FilterHotel from "./FilterHotel/FilterHotel";
+import FilterFlight from "./FilterFlight/FilterFlight";
+import FilterCar from "./FilterCar/FilterCar";
 export {
   Options,
   InputForm,
@@ -28,5 +31,8 @@ export {
   InputForms4,
   SearchByAirline,
   SearchByCarBrand,
-  SearchByHotel
+  SearchByHotel,
+  FilterHotel,
+  FilterFlight,
+  FilterCar
 };
