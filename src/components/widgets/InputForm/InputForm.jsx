@@ -7,19 +7,54 @@ import { Link } from "../../elements";
 export default ({ data = [] }) => {
 
 
-  const s = 'stays';
-  const [selected, setSelected] = useState( s? s : 'stays');
+  // const s = 'stays';
+  // const [selected, setSelected] = useState( s? s : 'stays');
 
-  const handleChange = (event) => {
-    setSelected(event.target.value);
-  };
+  // const handleChange = (event) => {
+  //   setSelected(event.target.value);
+  // };
 
+  const [Leaving, setLeaving] = useState("");
+  const [going, setGoing] = useState("");
+  const [checkIn, setCheckIn] = useState("");
+  const [checkOut, setCheckOut] = useState("");
+  const [travelers, setTravelers] = useState("");
+
+  const LeavingChangeHandler = (event) => {
+    setLeaving(event.target.value)
+  }
+  const GoingChangeHandler = (event) => {
+    setGoing(event.target.value)
+  }
+  const CheckInChangeHandler = (event) => {
+    setCheckIn(event.target.value)
+  }
+  const CheckOutChangeHandler = (event) => {
+    setCheckOut(event.target.value)
+  }
+  const TraverlerChangeHandler = (event) => {
+    setTravelers(event.target.value)
+  }
+
+  const onSubmitHandler = (event) => {
+    var notFound = false;
+    event.preventDefault();
+    async function temp (){
+      try{
+        
+        }catch(err){
+          console.log(err);
+        }        
+    }
+    temp();
+  }
 
   return (
     <div className={styles.searchbox}>
+      <form onSubmit = {onSubmitHandler} action = "/" method = "post">
       <div className={styles.selectlist}>
         Travelers:
-        <select name="number" id="number" >
+        <select name="number" onChange={(e)=>TraverlerChangeHandler(e)} id="number" >
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
@@ -29,16 +64,18 @@ export default ({ data = [] }) => {
         </select>
       </div>
       <div className={styles.inputlist}>
-        <input type="text" placeholder="Leaving from" style={{flexGrow:'6'}}/>
-        <input type="text" placeholder="Going to" style={{flexGrow:'6'}} />
-        <input type="date" placeholder="Check In:"  required style={{flexGrow:'1'}} />
-        <input type="date" placeholder="Check Out:"  required style={{flexGrow:'1'}}/>
+        <input type="text" placeholder="Leaving from" onChange={(e)=>LeavingChangeHandler(e)} style={{flexGrow:'6'}}/>
+        <input type="text" placeholder="Going to" onChange={(e)=>GoingChangeHandler(e)} style={{flexGrow:'6'}} />
+        <input type="date" placeholder="Check In:" onChange={(e)=>CheckInChangeHandler(e)}  required style={{flexGrow:'1'}} />
+        <input type="date" placeholder="Check Out:" onChange={(e)=>CheckOutChangeHandler(e)}  required style={{flexGrow:'1'}}/>
       </div>
       <div className={styles.btnlist}>
-        <Link url='/search' hoverStyle={{background:'transparent', color:'#26735b', border:'1px solid #26735b'}}>
+        {/* <Link url='/search' hoverStyle={{background:'transparent', color:'#26735b', border:'1px solid #26735b'}}>
           Search
-        </Link>
+        </Link> */}
+        <input type ="submit" className={styles.imgsection_btn} style={{width:'20%'}}/>
       </div>
+      </form>
     </div>
   );
 };

@@ -1,21 +1,13 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import Slider from "react-slick";
 import styles from "./FlightCard.module.scss";
 import Layout from "../../layouts/Layout/Layout";
 import { Button } from "../../elements";
 import { Options } from "../../elements";
-import flights from "../FlightCards";
+import prepareResults from "../FlightCards";
 
 export default ({ data = [] }) => {
-
-
-  const s = 'stays';
-  const [selected, setSelected] = useState( s? s : 'stays');
-
-  const handleChange = (event) => {
-    setSelected(event.target.value);
-  };
-
+  const [flight, setFlight] = useState([prepareResults()]);
   function FlightCard(props) {
     return (
       <div className={styles.card}>
@@ -42,6 +34,7 @@ export default ({ data = [] }) => {
   }
 
   function CreateCard(flight) {
+    setFlight([prepareResults()]);
     return (
       <FlightCard 
         key={flight.id}
@@ -60,7 +53,7 @@ export default ({ data = [] }) => {
 
   return (
     <div className={styles.cards}>
-      {flights.map(CreateCard)}
+      {flight.map(CreateCard)}
       <div className={styles.btnlist}>
         <button>
           See More
@@ -68,4 +61,5 @@ export default ({ data = [] }) => {
       </div>
     </div>
   );
+
 };

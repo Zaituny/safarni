@@ -80,7 +80,7 @@ const LastNameChangeHandler = (event) => {
               <input type="text" placeHolder="Last Name" onChange={(e)=>LastNameChangeHandler(e)} style={{width:'60%'}}/>
             </div>
             <div className={styles.inputlist}>
-              <input type="text" placeHolder="Password" onChange={(e)=>PasswordChangeHandler(e)} style={{width:'60%'}}/>
+              <input type="password" placeHolder="Password" onChange={(e)=>PasswordChangeHandler(e)} style={{width:'60%'}}/>
             </div>
             <br></br>
             <br></br>

@@ -32,7 +32,6 @@ const onSubmitHandler = (event) => {
         return;
       }
       const user = await response.json();
-      console.log(response.data);
       console.log(user);
       if(!user){
         alert("incorrect email or email doesn't exist please sign up if you don't have an account");
@@ -80,7 +79,7 @@ const onSubmitHandler = (event) => {
                 <input type="text" placeHolder="Email" onChange={(e)=>UsernameChangeHandler(e)} style={{width:'60%'}}/>
               </div>
               <div className={styles.inputlist}>
-                <input type="text" placeHolder="Password" onChange={(e)=>PasswordChangeHandler(e)} style={{width:'60%'}}/>
+                <input type="password" placeHolder="Password" onChange={(e)=>PasswordChangeHandler(e)} style={{width:'60%'}}/>
               </div>
               <br></br>
               <br></br>

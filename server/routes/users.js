@@ -23,6 +23,17 @@ recordRoutes.route("/users").get(function (req, res) {
      res.json(result);
    });
 });
+
+recordRoutes.route("/searchresults").get(function (req, res) {
+  let db_connect = dbo.getDb("Safarni");
+  db_connect
+    .collection("searchresults")
+    .find()
+    .toArray(function (err, result) {
+      if (err) throw err;
+      res.json(result);
+    });
+ });
  
 // This section will help you get a single record by id
 recordRoutes.route("/users/:Email").get(function (req, res) {
@@ -82,5 +93,13 @@ recordRoutes.route("/:id").delete((req, response) => {
    response.json(obj);
  });
 });
+recordRoutes.route("/users/delete/:collection").delete((req, response) => {
+  let db_connect = dbo.getDb();
+  db_connect.collection(req.params.collection).delete({}, function (err, obj) {
+    if (err) throw err;
+    console.log("1 document deleted");
+    response.json(obj);
+  });
+ });
  
 module.exports = recordRoutes;

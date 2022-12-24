@@ -97,3 +97,32 @@
   border: solid 2px rgba(26, 76, 60, 0.75);
   background-color: #fff;
 }
+
+.imgsection_btn{
+  transform: rotateY(360deg);
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 40px;
+  border: solid 2px;
+  background-color: #1a4c3c;
+  font-family: Lexend;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  transition: all 0.25s ease-in-out;
+}
+.imgsection_btn:hover{
+  background: #fff;
+   color:  #1a4c3c;
+    width: 60%
+}
