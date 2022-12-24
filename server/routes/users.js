@@ -107,9 +107,9 @@ recordRoutes.route("/searchresults/add").post(function (req, response) {
     name: req.body.name,
     star: req.body.star,
     img: req.body.img,
-    describtion: req.body.describtion,
+    description: req.body.description,
     rating: req.body.rating,
-    review: req.body.review,
+    reviews: req.body.reviews,
     price: req.body.price,
     payEvery: req.body.payEvery
   };

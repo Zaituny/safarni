@@ -3,6 +3,8 @@ import Slider from "react-slick";
 import styles from "./InputForm.module.scss";
 import Layout from "../../layouts/Layout/Layout";
 import { Link } from "../../elements";
+import { hotelNames, hotelDescribtions } from "../../hotelData";
+import { useNavigate } from 'react-router-dom';
 
 export default ({ data = [] }) => {
 
@@ -20,6 +22,8 @@ export default ({ data = [] }) => {
   const [checkIn, setCheckIn] = useState("");
   const [checkOut, setCheckOut] = useState("");
   const [travelers, setTravelers] = useState("");
+  const navigate = useNavigate();
+
 
   const LeavingChangeHandler = (event) => {
     setLeaving(event.target.value)
@@ -41,7 +45,64 @@ export default ({ data = [] }) => {
     event.preventDefault();
     async function temp (){
       try{
-        
+        await fetch("http://localhost:5000/delete/hotels",{
+          method: "delete"
+          });
+          await fetch("http://localhost:5000/hotels/add",{
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: 
+              JSON.stringify({
+                name: hotelNames[Math.floor(Math.random() * hotelNames.length)],
+                star: Math.floor(Math.random() * 5) + 1,
+                img:"https://i.ibb.co/9cL1vwS/pexels-donald-tong-189296.jpg",
+                description: hotelDescribtions[Math.floor(Math.random() * hotelDescribtions.length)],
+                rating: Math.floor(Math.random() * 10) + 1,
+                reviews: "Wonderful (1,200 reviews)",
+                price: Math.floor(Math.random() * 1000) + 50,
+                payEvery: "per night"
+              }),
+            
+          });
+          await fetch("http://localhost:5000/hotels/add",{
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: 
+              JSON.stringify({
+                name: hotelNames[Math.floor(Math.random() * hotelNames.length)],
+                star: Math.floor(Math.random() * 5) + 1,
+                img:"https://i.ibb.co/9cL1vwS/pexels-donald-tong-189296.jpg",
+                description: hotelDescribtions[Math.floor(Math.random() * hotelDescribtions.length)],
+                rating: Math.floor(Math.random() * 10) + 1,
+                reviews: "Wonderful (1,200 reviews)",
+                price: Math.floor(Math.random() * 1000) + 50,
+                payEvery: "per night"
+              }),
+            
+          });
+          await fetch("http://localhost:5000/hotels/add",{
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: 
+              JSON.stringify({
+                name: hotelNames[Math.floor(Math.random() * hotelNames.length)],
+                star: Math.floor(Math.random() * 5) + 1,
+                img:"https://i.ibb.co/9cL1vwS/pexels-donald-tong-189296.jpg",
+                description: hotelDescribtions[Math.floor(Math.random() * hotelDescribtions.length)],
+                rating: Math.floor(Math.random() * 10) + 1,
+                reviews: "Wonderful (1,200 reviews)",
+                price: Math.floor(Math.random() * 1000) + 50,
+                payEvery: "per night"
+              }),
+            
+          });
+          navigate("/hotel-search");
         }catch(err){
           console.log(err);
         }        

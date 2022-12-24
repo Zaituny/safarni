@@ -7,7 +7,7 @@ import { Options } from "../../elements";
 
 
 export default ({ data = [] }) => {
-  const [hotels, setSearchresults] = useState([])
+  const [hotels, setHotelresults] = useState([])
   useEffect(()=>{
     async function prepareResults(){
       const response = await fetch("http://localhost:5000/hotels");
@@ -15,19 +15,13 @@ export default ({ data = [] }) => {
         alert("error while fetching hotel data");
         return;
       }
-      const search = await response.json();
-      setSearchresults(search); 
+      const hotel = await response.json();
+      setHotelresults(hotel); 
     }
     prepareResults();
     return;
   }, hotels.length);
 
-  const s = 'stays';
-  const [selected, setSelected] = useState( s? s : 'stays');
-
-  const handleChange = (event) => {
-    setSelected(event.target.value);
-  };
 
   function HotelCard(props) {
     return (
@@ -43,10 +37,10 @@ export default ({ data = [] }) => {
             }
             </h1>
             <h3 style={{fontSize:'12px'}}>{props.description}</h3>
-            <h2> <b>{props.rating}</b>  {props.reviews}</h2>
+            <h2> <b>{props.rating+"/10"}</b>  {props.reviews}</h2>
           </div>
           <div style={{padding:'15px', flexBasis: '10%', alignItems:'end', justifyContent:'end'}}>
-            <h1 style={{fontSize:'32px'}}>{props.price}</h1>
+            <h1 style={{fontSize:'32px'}}>{"$"+props.price}</h1>
             <h3>{props.payEvery}</h3>
           </div>
         </div>
