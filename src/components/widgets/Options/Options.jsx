@@ -24,7 +24,7 @@ function Options(props) {
           <span>Stays</span> 
         </label>
         <label>
-          <input type="radio" name='nav-menu' value="Home" checked={selected === 'flights'} onChange={handleChange} />
+          <input type="radio" name='nav-menu' value="" checked={selected === 'flights'} onChange={handleChange} />
           <span>Flights</span> 
         </label>
         <label>

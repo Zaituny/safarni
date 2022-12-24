@@ -14,6 +14,7 @@ export default ({ data = [] }) => {
   //   setSelected(event.target.value);
   // };
 
+
   const [Leaving, setLeaving] = useState("");
   const [going, setGoing] = useState("");
   const [checkIn, setCheckIn] = useState("");
@@ -37,7 +38,6 @@ export default ({ data = [] }) => {
   }
 
   const onSubmitHandler = (event) => {
-    var notFound = false;
     event.preventDefault();
     async function temp (){
       try{
@@ -48,7 +48,6 @@ export default ({ data = [] }) => {
     }
     temp();
   }
-
   return (
     <div className={styles.searchbox}>
       <form onSubmit = {onSubmitHandler} action = "/" method = "post">
