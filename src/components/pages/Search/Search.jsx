@@ -8,7 +8,7 @@ import {
 } from "../../widgets";
 import { Layout } from "../../layouts";
 import styles from "./Search.module.scss";
-import {Options, InputForm, Filters} from "../../widgets"
+import {Options, InputForms4, Filters} from "../../widgets"
 import { Link } from "../../elements";
 
 import { useCustomState } from "../../../state/state";
@@ -31,7 +31,7 @@ export default () => {
         >
           <div className={styles.slide}>
             <div className={styles.intro}>
-              <InputForm/>
+              <InputForms4 />
               <div style={{display:'flex', width:'100%', marginTop:'30px', flexDirection:'column'}}>
                 <div className={styles.inputlist} style={{display:'flex', width:'100%', marginTop:'30px', justifyContent:'space-between'}}>
                   <SearchBy/>
@@ -46,7 +46,7 @@ export default () => {
             </div>
           </div>
         </Layout>
-    </article>
+      </article>
     </Fragment>
   );
 };

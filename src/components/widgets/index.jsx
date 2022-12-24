@@ -9,6 +9,7 @@ import InputForm2 from "./InputForm2/InputForm2";
 import InputForm3 from "./InputForm3/InputForm3";
 import CarCard from "./CarCard/CarCard";
 import HotelCard from "./HotelCard/HotelCard"
+import InputForms4 from "./InputForms4/InputForms4";
 export {
   Options,
   InputForm,
@@ -20,5 +21,6 @@ export {
   InputForm2,
   InputForm3,
   CarCard,
-  HotelCard
+  HotelCard,
+  InputForms4
 };

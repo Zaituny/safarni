@@ -5,7 +5,7 @@ import {
 } from "../../widgets";
 import { Layout } from "../../layouts";
 import styles from "./Home.module.scss";
-import {Options, InputForm} from "../../widgets"
+import {Options, InputForms4} from "../../widgets"
 import { Link } from "../../elements";
 
 import { useCustomState } from "../../../state/state";
@@ -30,7 +30,7 @@ export default () => {
             <div className={styles.intro}>
               <h1>Travel Made Easy</h1>
               <Options s = "flights"/>
-              <InputForm/>
+              <InputForms4/>
               <div className={styles.imgsection} style={{backgroundImage:'url(https://images.squarespace-cdn.com/content/v1/594a6bb8c534a58bb4b04c8b/1500370615885-NYQL0WR5U79B6WLSBW2Q/airplane-plane-flight-900.jpg)', width:'100%', height:'500px', backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center'}}>
                 <h1>Your safety matters</h1>
                 <Link hoverStyle={{background:'#1a4c3c', color:'#fff'}} className={styles.imgsection_btn} url="/about">
