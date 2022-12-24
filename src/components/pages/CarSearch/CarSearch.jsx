@@ -3,7 +3,7 @@ import {
   Slider,
   ParallaxHeader,
   SortBy,
-  SearchBy,
+  SearchByCarBrand,
   CarCard
 } from "../../widgets";
 import { Layout } from "../../layouts";
@@ -34,7 +34,7 @@ export default () => {
               <InputForm2/>
               <div style={{display:'flex', width:'100%', marginTop:'30px', flexDirection:'column'}}>
                 <div className={styles.inputlist} style={{display:'flex', width:'100%', marginTop:'30px', justifyContent:'space-between'}}>
-                  <SearchBy/>
+                  <SearchByCarBrand/>
                   <SortBy/>
                 </div>
                 <div className={styles.mainsection} style={{display:'flex', width:'100%', marginTop:'30px', justifyContent:'space-between'}}>

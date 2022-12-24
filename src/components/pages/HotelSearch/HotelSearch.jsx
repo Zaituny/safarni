@@ -3,7 +3,7 @@ import {
   Slider,
   ParallaxHeader,
   SortBy,
-  SearchBy,
+  SearchByHotel,
   HotelCard
 } from "../../widgets";
 import { Layout } from "../../layouts";
@@ -34,7 +34,7 @@ export default () => {
               <InputForm/>
               <div style={{display:'flex', width:'100%', marginTop:'30px', flexDirection:'column'}}>
                 <div className={styles.inputlist} style={{display:'flex', width:'100%', marginTop:'30px', justifyContent:'space-between'}}>
-                  <SearchBy/>
+                  <SearchByHotel/>
                   <SortBy/>
                 </div>
                 <div className={styles.mainsection} style={{display:'flex', width:'100%', marginTop:'30px', justifyContent:'space-between'}}>

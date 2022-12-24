@@ -10,6 +10,9 @@ import InputForm3 from "./InputForm3/InputForm3";
 import CarCard from "./CarCard/CarCard";
 import HotelCard from "./HotelCard/HotelCard"
 import InputForms4 from "./InputForms4/InputForms4";
+import SearchByAirline from "./SearchByAirline/SearchByAirline";
+import SearchByCarBrand from "./SearchByCarBrand/SearchByCarBrand";
+import SearchByHotel from "./SearchByHotel/SearchByHotel"
 export {
   Options,
   InputForm,
@@ -22,5 +25,8 @@ export {
   InputForm3,
   CarCard,
   HotelCard,
-  InputForms4
+  InputForms4,
+  SearchByAirline,
+  SearchByCarBrand,
+  SearchByHotel
 };
