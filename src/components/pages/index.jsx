@@ -10,6 +10,10 @@ import HotelSearch from "./HotelSearch/HotelSearch";
 import Cruises from "./Cruises/Cruises";
 import Packages from "./Packages/Packages";
 import CarReserve from "./CarReserve/CarReserve";
+import HotelReserve from "./HotelReserve/HotelReserve";
+import FlightReserve from "./FlightReserve/FlightReserve";
+import AttractionReserve from "./AttractionReserve/AttractionReserve";
+import AttractionSearch from "./AttractionSearch/AttractionSearch";
 
 export {
   Home,
@@ -23,5 +27,9 @@ export {
   HotelSearch,
   Cruises,
   Packages,
-  CarReserve
+  CarReserve,
+  HotelReserve,
+  FlightReserve,
+  AttractionReserve,
+  AttractionSearch
 };

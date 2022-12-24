@@ -1,0 +1,1776 @@
+.flight-page-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .flight-page-flight-reserve {
+    width: 100%;
+    height: 1640px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .flight-page-group5 {
+    top: 69px;
+    left: 180px;
+    width: 1080px;
+    height: 51px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .flight-page-text {
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    position: absolute;
+    font-size: 36px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: center;
+    font-family: Lexend;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .flight-page-frame33 {
+    top: 5px;
+    left: 544px;
+    width: 536px;
+    height: 35px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    border-color: transparent;
+    justify-content: center;
+  }
+  .flight-page-frame31 {
+    top: 6px;
+    left: 24.5px;
+    width: 357px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    border-color: transparent;
+  }
+  .flight-page-frame32 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-color: transparent;
+    margin-right: 50px;
+    justify-content: center;
+  }
+  .flight-page-text002 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Lexend;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-text004 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Lexend;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 50px;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-text006 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Lexend;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 50px;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-text008 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Lexend;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-frame30 {
+    top: 3px;
+    left: 446px;
+    width: 90px;
+    height: 29px;
+    display: flex;
+    padding: 10px;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 15px;
+    justify-content: center;
+    background-color: rgba(38, 115, 91, 1);
+  }
+  .flight-page-text010 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Lexend;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-line1 {
+    top: 51px;
+    left: 0px;
+    width: 1080px;
+    height: 0px;
+    position: absolute;
+  }
+  .flight-page-ul {
+    top: 135px;
+    left: 180px;
+    width: 1080px;
+    display: flex;
+    padding: 1px 634.890625px 0 0;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .flight-page-step1of3l-o-t-polish-airlinesflight-c-a-ito-v-i-e-l-o-t-polish-ai {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-right: 0px;
+  }
+  .flight-page-div {
+    display: flex;
+    padding: 1px 0 0 0;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-right: 0px;
+    flex-direction: column;
+  }
+  .flight-page-span {
+    width: 194.09375px;
+    height: 16px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-bottom: 3px;
+  }
+  .flight-page-span01 {
+    top: -1px;
+    left: 0px;
+    width: 118px;
+    height: 18px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .flight-page-text012 {
+    top: 1px;
+    color: rgba(52, 59, 83, 1);
+    width: 118px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-text014 {
+    top: -1px;
+    left: 122.28125px;
+    color: rgba(52, 59, 83, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-span02 {
+    top: -1px;
+    left: 130.171875px;
+    width: 64px;
+    height: 20px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .flight-page-text015 {
+    color: rgba(52, 59, 83, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-svg {
+    top: 0px;
+    left: 23.34375px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+  }
+  .flight-page-text017 {
+    left: 41.34375px;
+    color: rgba(52, 59, 83, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-text019 {
+    color: rgba(26, 76, 60, 1);
+    height: auto;
+    font-size: 12px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 16px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-svg01 {
+    width: 34px;
+    height: 18px;
+    position: relative;
+  }
+  .flight-page-step2of3l-o-t-polish-airlinesflight-v-i-eto-c-a-i-l-o-t-polish-ai {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-right: 0px;
+  }
+  .flight-page-div01 {
+    display: flex;
+    padding: 1px 0 0 0;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-right: 0px;
+    flex-direction: column;
+  }
+  .flight-page-span03 {
+    width: 194.09375px;
+    height: 16px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-bottom: 3px;
+  }
+  .flight-page-span04 {
+    top: -1px;
+    left: 0px;
+    width: 118px;
+    height: 18px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .flight-page-text021 {
+    top: 1px;
+    color: rgba(52, 59, 83, 1);
+    width: 118px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-text023 {
+    top: -1px;
+    left: 122.28125px;
+    color: rgba(52, 59, 83, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-span05 {
+    top: -1px;
+    left: 130.171875px;
+    width: 64px;
+    height: 20px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .flight-page-text024 {
+    color: rgba(52, 59, 83, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-svg02 {
+    top: 0px;
+    left: 22.578125px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+  }
+  .flight-page-text026 {
+    left: 40.578125px;
+    color: rgba(52, 59, 83, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-text028 {
+    color: rgba(26, 76, 60, 1);
+    height: auto;
+    font-size: 12px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 16px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-svg03 {
+    width: 34px;
+    height: 18px;
+    position: relative;
+  }
+  .flight-page-div02 {
+    width: 108.921875px;
+    height: 18px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .flight-page-text030 {
+    top: 1px;
+    color: rgba(13, 38, 30, 1);
+    width: 109px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-div03 {
+    top: 218px;
+    left: 180px;
+    width: 655px;
+    height: 1012px;
+    display: flex;
+    padding: 0 0 24px 0;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    flex-direction: column;
+  }
+  .flight-page-div04 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-bottom: 24px;
+  }
+  .flight-page-div05 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+  }
+  .flight-page-div06 {
+    width: 655px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(13, 38, 30, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .flight-page-div07 {
+    width: 792px;
+    height: 96.296875px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-bottom: 0px;
+  }
+  .flight-page-text032 {
+    top: 23px;
+    left: 24px;
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 28px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-text034 {
+    top: 56px;
+    left: 24px;
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-div08 {
+    top: 78px;
+    left: 24px;
+    width: 744px;
+    height: 18.296875px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .flight-page-l-osqsvg {
+    top: 2.296875px;
+    left: 0px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+  }
+  .flight-page-text036 {
+    left: 20px;
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-div09 {
+    width: 792px;
+    height: 192.296875px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .flight-page-div10 {
+    top: 62px;
+    left: 24px;
+    width: 744px;
+    display: flex;
+    padding: 25px 0 4px 0;
+    position: absolute;
+    align-items: flex-start;
+    border-color: rgba(148, 148, 158, 1);
+    border-style: solid;
+    border-width: Symbol(figma.mixed)px;
+  }
+  .flight-page-div11 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+  }
+  .flight-page-text038 {
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 8px;
+    text-decoration: none;
+  }
+  .flight-page-div12 {
+    width: 744px;
+    height: 19.296875px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-bottom: 8px;
+  }
+  .flight-page-svg04 {
+    top: 1.296875px;
+    left: 0px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+  }
+  .flight-page-text040 {
+    left: 22px;
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-button {
+    display: flex;
+    padding: 7px 17.671875px 9px 16px;
+    position: relative;
+    align-items: flex-start;
+    border-color: rgba(215, 212, 210, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .flight-page-text042 {
+    color: rgba(38, 115, 91, 1);
+    height: auto;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 20px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-text044 {
+    top: 20px;
+    left: 24px;
+    color: rgba(38, 115, 91, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-div13 {
+    width: 655px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(13, 38, 30, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .flight-page-div14 {
+    width: 792px;
+    height: 96.296875px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-bottom: 0px;
+  }
+  .flight-page-text046 {
+    top: 23px;
+    left: 24px;
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 28px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-text048 {
+    top: 56px;
+    left: 24px;
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-div15 {
+    top: 78px;
+    left: 24px;
+    width: 744px;
+    height: 18.296875px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .flight-page-l-osqsvg1 {
+    top: 2.296875px;
+    left: 0px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+  }
+  .flight-page-text050 {
+    left: 20px;
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-div16 {
+    width: 792px;
+    height: 192.296875px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .flight-page-div17 {
+    top: 62px;
+    left: 24px;
+    width: 744px;
+    display: flex;
+    padding: 25px 0 4px 0;
+    position: absolute;
+    align-items: flex-start;
+    border-color: rgba(148, 148, 158, 1);
+    border-style: solid;
+    border-width: Symbol(figma.mixed)px;
+  }
+  .flight-page-div18 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+  }
+  .flight-page-text052 {
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 8px;
+    text-decoration: none;
+  }
+  .flight-page-div19 {
+    width: 744px;
+    height: 19.296875px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-bottom: 8px;
+  }
+  .flight-page-svg05 {
+    top: 1.296875px;
+    left: 0px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+  }
+  .flight-page-text054 {
+    left: 22px;
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-button1 {
+    display: flex;
+    padding: 7px 17.671875px 9px 16px;
+    position: relative;
+    align-items: flex-start;
+    border-color: rgba(215, 212, 210, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .flight-page-text056 {
+    color: rgba(38, 115, 91, 1);
+    height: auto;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 20px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-text058 {
+    top: 20px;
+    left: 24px;
+    color: rgba(38, 115, 91, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-div20 {
+    width: 655px;
+    display: flex;
+    padding: 24px;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(13, 38, 30, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .flight-page-text060 {
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 24px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 8px;
+    text-decoration: none;
+  }
+  .flight-page-div21 {
+    display: flex;
+    padding: 9px 290px 0 0;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+  }
+  .flight-page-span06 {
+    width: 154.421875px;
+    height: 16px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-bottom: 18.296875px;
+  }
+  .flight-page-svg06 {
+    top: 0.296875px;
+    left: 0px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+  }
+  .flight-page-text062 {
+    top: -1px;
+    left: 26px;
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-text064 {
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    font-size: 13px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-div22 {
+    width: 655px;
+    height: 222px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(13, 38, 30, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .flight-page-text066 {
+    top: 24px;
+    left: 24px;
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 24px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-div23 {
+    top: 56px;
+    left: 24px;
+    width: 744px;
+    display: flex;
+    padding: 9px 560px 2.296875px 0;
+    position: absolute;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+  }
+  .flight-page-span07 {
+    width: 167.640625px;
+    height: 16px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-bottom: 11.296875px;
+  }
+  .flight-page-svg07 {
+    top: 0.296875px;
+    left: 0px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+  }
+  .flight-page-text068 {
+    top: -1px;
+    left: 26px;
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    position: absolute;
+    font-size: 13px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-span08 {
+    width: 163.75px;
+    height: 16px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-bottom: 11.296875px;
+  }
+  .flight-page-svg08 {
+    top: 0.296875px;
+    left: 0px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+  }
+  .flight-page-text070 {
+    top: -1px;
+    left: 26px;
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-span09 {
+    width: 184px;
+    height: 16px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .flight-page-svg09 {
+    top: 0.296875px;
+    left: 0px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+  }
+  .flight-page-text072 {
+    top: -1px;
+    left: 26px;
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    position: absolute;
+    font-size: 13px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-button2 {
+    top: 161.890625px;
+    left: 24px;
+    width: 102px;
+    display: flex;
+    padding: 7px 17.609375px 9px 16px;
+    position: absolute;
+    align-items: flex-start;
+    border-color: rgba(215, 212, 210, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .flight-page-text074 {
+    color: rgba(38, 115, 91, 1);
+    height: auto;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 20px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-section {
+    top: 194px;
+    left: 868px;
+    width: 384px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+  }
+  .flight-page-div24 {
+    display: flex;
+    padding: 24px;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    border-radius: 8px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .flight-page-div25 {
+    width: 336px;
+    height: 217px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-bottom: 24px;
+  }
+  .flight-page-text076 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 19px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 24px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-tbody {
+    top: 36px;
+    left: 0px;
+    width: 336px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+  }
+  .flight-page-tr {
+    display: flex;
+    padding: 0 1.609375px 12px 0;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-bottom: 0px;
+  }
+  .flight-page-text078 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 13px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 189.390625px;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-text080 {
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    font-size: 13px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-tr1 {
+    display: flex;
+    padding: 0 2.609375px 0 0;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-bottom: 0px;
+  }
+  .flight-page-text082 {
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    font-size: 13px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 252.390625px;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-text084 {
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    font-size: 13px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-tr2 {
+    display: flex;
+    padding: 12px 2.609375px 0 0;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+  }
+  .flight-page-text086 {
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 191.390625px;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-text088 {
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    font-size: 13px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-div26 {
+    top: 138px;
+    left: 0px;
+    width: 336px;
+    height: 1px;
+    position: absolute;
+    border-color: rgba(13, 38, 30, 1);
+  }
+  .flight-page-tbody1 {
+    top: 163px;
+    left: 0px;
+    width: 336px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+  }
+  .flight-page-tr3 {
+    display: flex;
+    padding: 0 1.296875px 0 0;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-bottom: 12px;
+  }
+  .flight-page-text090 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 19px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 24px;
+    font-stretch: normal;
+    margin-right: 186.703125px;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-text092 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 19px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 24px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-text094 {
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-button3 {
+    width: 336px;
+    height: 36px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 8px;
+    background-color: rgba(26, 76, 60, 1);
+  }
+  .flight-page-text096 {
+    top: 9px;
+    left: 131.96875px;
+    color: rgba(255, 255, 255, 1);
+    width: 72px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 20px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-text098 {
+    top: 1259px;
+    left: 411px;
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    position: absolute;
+    font-size: 12px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 16px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-sharefeedback-thislinkwillopeninanewtab {
+    top: 1283px;
+    left: 440.203125px;
+    width: 146px;
+    display: flex;
+    padding: 7px 17.078125px 9px 17px;
+    position: absolute;
+    align-items: flex-start;
+    border-color: rgba(215, 212, 210, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .flight-page-text100 {
+    color: rgba(26, 76, 60, 1);
+    height: auto;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 20px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-group4 {
+    top: 1348px;
+    left: 180px;
+    width: 1080px;
+    height: 252px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .flight-page-line8 {
+    top: 0px;
+    left: 0px;
+    width: 1080px;
+    height: 0px;
+    position: absolute;
+  }
+  .flight-page-text102 {
+    top: 11px;
+    left: 9px;
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    position: absolute;
+    font-size: 32px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: center;
+    font-family: Lexend;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .flight-page-frame42 {
+    top: 24px;
+    left: 540px;
+    width: 416px;
+    height: 20px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    border-color: transparent;
+  }
+  .flight-page-text104 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Lexend;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-text106 {
+    left: 148px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Lexend;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-text108 {
+    left: 257px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Lexend;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-text110 {
+    left: 370px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Lexend;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .flight-page-text112 {
+    top: 44px;
+    left: 14px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .flight-page-text114 {
+    top: 228px;
+    left: 412px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .flight-page-text116 {
+    top: 51px;
+    left: 540px;
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Light;
+    text-align: left;
+    font-family: Lexend;
+    font-weight: 300;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .flight-page-text123 {
+    top: 51px;
+    left: 688px;
+    color: rgba(13, 38, 30, 1);
+    width: 90px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Light;
+    text-align: left;
+    font-family: Lexend;
+    font-weight: 300;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .flight-page-text132 {
+    top: 51px;
+    left: 911px;
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Light;
+    text-align: left;
+    font-family: Lexend;
+    font-weight: 300;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .flight-page-text139 {
+    top: 51px;
+    left: 800px;
+    color: rgba(13, 38, 30, 1);
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Light;
+    text-align: left;
+    font-family: Lexend;
+    font-weight: 300;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  

@@ -12,7 +12,11 @@ import {
   HotelSearch,
   Cruises,
   Packages,
-  CarReserve
+  CarReserve,
+  HotelReserve,
+  FlightReserve,
+  AttractionReserve,
+  AttractionSearch
 } from "./components/pages";
 import { Header, Sidebar, Footer } from "./components/layouts";
 import { Spinner } from "./components/elements";
@@ -46,6 +50,10 @@ export default () => {
           <Route path="/cruises" exact element={<Cruises/>} />
           <Route path="/packages" exact element={<Packages/>} />
           <Route path="/car-reserve" exact element={<CarReserve/>} />
+          <Route path="/hotel-reserve" exact element={<HotelReserve/>} />
+          <Route path="/flight-reserve" exact element={<FlightReserve/>} />
+          <Route path="/att-reserve" exact element={<AttractionReserve/>} />
+          <Route path="/att-search" exact element={<AttractionSearch/>} />
         </Routes>
         <Footer />
       </Fragment>
