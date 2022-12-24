@@ -4,6 +4,7 @@ import styles from "./HotelCard.module.scss";
 import Layout from "../../layouts/Layout/Layout";
 import { Button } from "../../elements";
 import { Options } from "../../elements";
+import { useNavigate } from 'react-router-dom';
 
 
 export default ({ data = [] }) => {
@@ -21,6 +22,12 @@ export default ({ data = [] }) => {
     prepareResults();
     return;
   }, hotels.length);
+
+  const navigate = useNavigate();
+  const onSubmitHandler = (event) => {
+    navigate("/");
+    navigate("/hotel-reserve");
+  }
 
 
   function HotelCard(props) {
@@ -43,6 +50,11 @@ export default ({ data = [] }) => {
             <h1 style={{fontSize:'32px'}}>{"$"+props.price}</h1>
             <h3>{props.payEvery}</h3>
           </div>
+        </div>
+        <div className={styles.btnlist}>
+          <form onSubmit = {onSubmitHandler} action = "/" method = "post"><button>
+            Reserve
+          </button></form>
         </div>
       </div>
     );

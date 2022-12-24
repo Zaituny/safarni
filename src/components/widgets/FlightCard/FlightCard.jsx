@@ -48,9 +48,11 @@ export default ({ data = [] }) => {
         <div style={{flexBasis: '100%', borderTop:'1px solid #0d261e', margin:'10px -15px -10px', padding:'5px 15px'}}>
           <h2>{props.included}</h2>
         </div>
-        <form onSubmit = {onSubmitHandler} action = "/" method = "post"><button>
-              Reserve
-            </button></form>
+        <div className={styles.btnlist}>
+          <form onSubmit = {onSubmitHandler} action = "/" method = "post"><button>
+            Reserve
+          </button></form>
+        </div>
       </div>
     );
   }
