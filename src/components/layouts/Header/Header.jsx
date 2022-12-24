@@ -38,9 +38,9 @@ export default ({ data = [] }) => {
 
         <ul className={styles.menu}>{menu}</ul>
 
-        <Link url="/" hoverStyle={{ color: "#26735b", background:'#fff', border:'1px solid #26735b', transition:'all 0.5s ease-in-out'}} className={styles.accountbtn}>
+        {/* <Link url="/" hoverStyle={{ color: "#26735b", background:'#fff', border:'1px solid #26735b', transition:'all 0.5s ease-in-out'}} className={styles.accountbtn}>
             Account
-        </Link>
+        </Link> */}
         <Link url="/" hoverStyle={{ color: "#26735b", background:'#fff', border:'1px solid #26735b', transition:'all 0.5s ease-in-out'}} className={styles.accountbtn2}>
             <i className='fa-solid fa-user'></i>
         </Link>

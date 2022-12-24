@@ -1,13 +1,26 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect  } from "react";
 import Slider from "react-slick";
 import styles from "./HotelCard.module.scss";
 import Layout from "../../layouts/Layout/Layout";
 import { Button } from "../../elements";
 import { Options } from "../../elements";
-import hotels from "../HotelCard";
+
 
 export default ({ data = [] }) => {
-
+  const [hotels, setSearchresults] = useState([])
+  useEffect(()=>{
+    async function prepareResults(){
+      const response = await fetch("http://localhost:5000/hotels");
+      if(!response.ok){
+        alert("error while fetching hotel data");
+        return;
+      }
+      const search = await response.json();
+      setSearchresults(search); 
+    }
+    prepareResults();
+    return;
+  }, hotels.length);
 
   const s = 'stays';
   const [selected, setSelected] = useState( s? s : 'stays');
@@ -26,7 +39,7 @@ export default ({ data = [] }) => {
           <div className={styles.hotel_info} style={{flexBasis: '45%', padding:'15px', justifyContent:'space-between'}}>
             <h1>{props.name}<br />
             {
-              props.star
+              [...Array(props.star)].map((e, i) => <i className="fa-solid fa-star" key={i}></i>)
             }
             </h1>
             <h3 style={{fontSize:'12px'}}>{props.description}</h3>

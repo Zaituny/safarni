@@ -5,7 +5,6 @@ import Layout from "../../layouts/Layout/Layout";
 import { Button } from "../../elements";
 import { Options } from "../../elements";
 import { set } from "mongoose";
-//import flight from "../FlightCards";
 
 export default ({ data = [] }) => {
   const [flight, setSearchresults] = useState([])
@@ -13,7 +12,7 @@ export default ({ data = [] }) => {
     async function prepareResults(){
       const response = await fetch("http://localhost:5000/searchresults");
       if(!response.ok){
-        alert("error while featching flight data");
+        alert("error while fetching flight data");
         return;
       }
       const search = await response.json();
@@ -32,11 +31,11 @@ export default ({ data = [] }) => {
             <h3> <i className="fa-regular fa-clock"></i>{props.airline}</h3>
           </div>
           <div style={{flexBasis: '33%'}}>
-            <h3>{props.duration}</h3>
-            <h3>{props.layoverTime}</h3>
+            <h3>{"duration: " + props.duration + " hours"}</h3>
+            <h3>{"layover time: " + props.layoverTime + " hours"}</h3>
           </div>
           <div style={{flexBasis: '33%', alignItems:'end', justifyContent:'end'}}>
-            <h1 style={{fontSize:'26px'}}>{props.price}</h1>
+            <h1 style={{fontSize:'26px'}}>{"$"+props.price}</h1>
             <h3>{props.tripPerTraveler}</h3>
           </div>
         </div>

@@ -5,15 +5,19 @@ import Layout from "../../layouts/Layout/Layout";
 import { Link } from "../../elements";
 
 export default ({ data = [] }) => {
+  const [Going, setGoing] = useState("");
+  const [checkIn, setCheckIn] = useState("");
+  const [checkOut, setCheckOut] = useState("");
 
-
-  const s = 'stays';
-  const [selected, setSelected] = useState( s? s : 'stays');
-
-  const handleChange = (event) => {
-    setSelected(event.target.value);
-  };
-
+  const GoingChangeHandler = (event) => {
+    setGoing(event.target.value)
+  }
+  const checkInChangeHandler = (event) => {
+    setCheckIn(event.target.value)
+  }
+  const checkOutChangeHandler = (event) => {
+    setCheckOut(event.target.value)
+  }
 
   return (
     <div className={styles.searchbox}>
