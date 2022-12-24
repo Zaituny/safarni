@@ -87,6 +87,7 @@ recordRoutes.route("/searchresults/add").post(function (req, response) {
   let myobj = {
     id: req.body.id,
     time: req.body.time,
+    airline: req.body.airline,
     date: req.body.date,
     duration: req.body.duration,
     layoverTime: req.body.layoverTime,

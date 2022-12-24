@@ -6,6 +6,7 @@ import { Link } from "../../elements";
 import { useNavigate } from 'react-router-dom';
 
 export default ({ data = [] }) => {
+  const airlineData = ["EgyptAir", "Lufthansa", "British Aitlines", "KLM"]
   const navigate = useNavigate();
   function randomDate(start, end, startHour, endHour) {
     var date = new Date(+start + Math.random() * (end - start));
@@ -59,7 +60,7 @@ export default ({ data = [] }) => {
               JSON.stringify({
                 destination: Leaving.toString() + " - " + Going,
                 time: date,
-                Airline: "EgyptAir",
+                airline: airlineData[Math.floor(Math.random() * 5)],
                 duration: Math.floor((Math.random() * 23)) + 1,
                 layoverTime: Math.floor((Math.random() * 23)) + 1,
                 price: Math.floor((Math.random() * 1000)) + 400,
@@ -77,7 +78,7 @@ export default ({ data = [] }) => {
               JSON.stringify({
                 destination: Leaving.toString() + " - " + Going,
                 time: date,
-                Airline: "EgyptAir",
+                airline: "EgyptAir",
                 duration: Math.floor((Math.random() * 23)) + 1,
                 layoverTime: Math.floor((Math.random() * 23)) + 1,
                 price: Math.floor((Math.random() * 1000)) + 400,
@@ -95,7 +96,7 @@ export default ({ data = [] }) => {
               JSON.stringify({
                 destination: Leaving.toString() + " - " + Going,
                 time: date,
-                Airline: "EgyptAir",
+                airline: "EgyptAir",
                 duration: Math.floor((Math.random() * 23)) + 1,
                 layoverTime: Math.floor((Math.random() * 23)) + 1,
                 price: Math.floor((Math.random() * 1000)) + 400,

@@ -11,7 +11,7 @@ export default ({ data = [] }) => {
   const navigate = useNavigate();
   const onSubmitHandler = (event) => {
     navigate("/");
-    navigate("/car-reserve");
+    navigate("/flight-reserve");
   }
   const [flight, setSearchresults] = useState([])
   useEffect(()=>{
