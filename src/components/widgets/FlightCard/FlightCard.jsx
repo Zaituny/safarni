@@ -4,10 +4,24 @@ import styles from "./FlightCard.module.scss";
 import Layout from "../../layouts/Layout/Layout";
 import { Button } from "../../elements";
 import { Options } from "../../elements";
-import prepareResults from "../FlightCards";
+import { set } from "mongoose";
+//import flight from "../FlightCards";
 
 export default ({ data = [] }) => {
-  const [flight, setFlight] = useState([prepareResults()]);
+  const [flight, setSearchresults] = useState([])
+  useEffect(()=>{
+    async function prepareResults(){
+      const response = await fetch("http://localhost:5000/searchresults");
+      if(!response.ok){
+        alert("error while featching flight data");
+        return;
+      }
+      const search = await response.json();
+      setSearchresults(search); 
+    }
+    prepareResults();
+    return;
+  }, flight.length);
   function FlightCard(props) {
     return (
       <div className={styles.card}>
@@ -34,7 +48,6 @@ export default ({ data = [] }) => {
   }
 
   function CreateCard(flight) {
-    setFlight([prepareResults()]);
     return (
       <FlightCard 
         key={flight.id}

@@ -34,6 +34,17 @@ recordRoutes.route("/searchresults").get(function (req, res) {
       res.json(result);
     });
  });
+
+ recordRoutes.route("/flights").get(function (req, res) {
+  let db_connect = dbo.getDb("Safarni");
+  db_connect
+    .collection("flights")
+    .find()
+    .toArray(function (err, result) {
+      if (err) throw err;
+      res.json(result);
+    });
+ });
  
 // This section will help you get a single record by id
 recordRoutes.route("/users/:Email").get(function (req, res) {
@@ -61,6 +72,25 @@ recordRoutes.route("/users/add").post(function (req, response) {
    response.json(res);
  });
 });
+
+recordRoutes.route("/searchresult/add").post(function (req, response) {
+  let db_connect = dbo.getDb("Safarni");
+  let myobj = {
+    id: req.body.id,
+    time: req.body.time,
+    date: req.body.date,
+    duration: req.body.duration,
+    layoverTime: req.body.layoverTime,
+    price: req.body.price,
+    tripPerTraveler: "Round trip per traveler",
+    included: "Carry-on included",
+    destination: req.body.destination,
+  };
+  db_connect.collection("searchresult").insertOne(myobj, function (err, res) {
+    if (err) throw err;
+    response.json(res);
+  });
+ });
  
 // This section will help you update a record by id.
 recordRoutes.route("/update/:id").post(function (req, response) {
@@ -93,9 +123,9 @@ recordRoutes.route("/:id").delete((req, response) => {
    response.json(obj);
  });
 });
-recordRoutes.route("/users/delete/:collection").delete((req, response) => {
+recordRoutes.route("/delete/:collection").delete((req, response) => {
   let db_connect = dbo.getDb();
-  db_connect.collection(req.params.collection).delete({}, function (err, obj) {
+  db_connect.collection(req.params.collection).deleteMany({}, function (err, obj) {
     if (err) throw err;
     console.log("1 document deleted");
     response.json(obj);
