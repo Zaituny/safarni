@@ -5,8 +5,14 @@ import Layout from "../../layouts/Layout/Layout";
 import { Button } from "../../elements";
 import { Options } from "../../elements";
 import { set } from "mongoose";
+import { useNavigate } from 'react-router-dom';
 
 export default ({ data = [] }) => {
+  const navigate = useNavigate();
+  const onSubmitHandler = (event) => {
+    navigate("/");
+    navigate("/car-reserve");
+  }
   const [flight, setSearchresults] = useState([])
   useEffect(()=>{
     async function prepareResults(){
@@ -42,6 +48,9 @@ export default ({ data = [] }) => {
         <div style={{flexBasis: '100%', borderTop:'1px solid #0d261e', margin:'10px -15px -10px', padding:'5px 15px'}}>
           <h2>{props.included}</h2>
         </div>
+        <form onSubmit = {onSubmitHandler} action = "/" method = "post"><button>
+              Reserve
+            </button></form>
       </div>
     );
   }
